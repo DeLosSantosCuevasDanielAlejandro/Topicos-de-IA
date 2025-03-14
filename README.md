@@ -6,10 +6,6 @@
 -  **Tarea 2**
 📝 La **lógica difusa** es una rama de la inteligencia artificial que permite analizar información en una escala entre lo falso y lo verdadero, facilitando el manejo de conceptos vagos. En un aire acondicionado, esta tecnología ajusta gradualmente la potencia del compresor y la velocidad del ventilador en lugar de simplemente encenderlos o apagarlos, mejorando la eficiencia y el confort.
 El código presentado implementa un control difuso en un aire acondicionado con un sensor **DHT11** y un sistema de reglas basadas en la diferencia entre la temperatura actual y la deseada. Se definen conjuntos borrosos para clasificar la temperatura (muy fría, fría, ideal, caliente, muy caliente) y la velocidad del ventilador (bajo, medio, alto). Dependiendo de la diferencia de temperatura, el ventilador ajusta su velocidad suavemente, evitando cambios bruscos.
-#### **Beneficios de la lógica difusa en climatización:**
-✅ **Mayor confort térmico** sin variaciones bruscas de temperatura.  
-✅ **Eficiencia energética**, reduciendo el consumo de energía.  
-✅ **Mayor durabilidad del equipo**, evitando ciclos constantes de encendido y apagado.
 ------------
 -  **Tarea 3**
 📝 Dado a que esta fue una tarea hecha en equipo, fue subida en el repositorio de mi compañero José Miguel Ruíz Medrano
