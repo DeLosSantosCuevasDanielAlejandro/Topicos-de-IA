@@ -31,7 +31,8 @@ Funciones principales:
 - **probabilidadAceptacion**: Calcula la probabilidad de aceptar un peor movimiento, dependiendo de la temperatura.
 - **mostrarTablero**: Muestra el tablero actual en la consola.
 - **resolverOchoReinasRecocidoSimulado**: Ejecuta el recocido simulado para encontrar la solución, mejorando el tablero en cada iteración.
-  Uso:
+
+Uso:
 El usuario define la temperatura inicial, final y un estado inicial (o se genera uno aleatorio). El algoritmo ajusta el tablero para minimizar los conflictos y muestra la solución final.
 ------------
 ## 📁 Unidad 3
