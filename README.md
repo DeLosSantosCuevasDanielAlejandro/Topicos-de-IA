@@ -21,3 +21,16 @@ El código presentado implementa un control difuso en un aire acondicionado con 
 - **Tarea 2**  
 📝 El **Problema de las 8 Reinas** es un caso específico del **Problema de las N Reinas**, donde se deben colocar 8 reinas en un tablero de 8x8, de manera que ninguna reina pueda atacar a otra. Las reinas no deben compartir la misma fila, columna ni diagonal.
 El **Algoritmo de Búsqueda Tabú** es un enfoque heurístico que utiliza una memoria para almacenar los últimos movimientos realizados. Esto permite evitar soluciones ya exploradas y ayuda a minimizar los conflictos entre las reinas.
+------------
+- **Tarea 3**  
+📝 Este código resuelve el problema de las 8 reinas usando recocido simulado. Coloca 8 reinas en un tablero de 8x8 sin que se ataquen entre sí.
+
+# Funciones principales:
+- **calcularConflictos**: Cuenta los ataques entre reinas.
+- **generarVecino**: Mueve una reina a una nueva posición para crear un tablero vecino.
+- **probabilidadAceptacion**: Calcula la probabilidad de aceptar un peor movimiento, dependiendo de la temperatura.
+- **mostrarTablero**: Muestra el tablero actual en la consola.
+- **resolverOchoReinasRecocidoSimulado**: Ejecuta el recocido simulado para encontrar la solución, mejorando el tablero en cada iteración.
+
+# Uso:
+El usuario define la temperatura inicial, final y un estado inicial (o se genera uno aleatorio). El algoritmo ajusta el tablero para minimizar los conflictos y muestra la solución final.
