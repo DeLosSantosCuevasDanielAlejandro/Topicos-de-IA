@@ -79,3 +79,6 @@ Componentes:
 - **Inicialización**: Se crean partículas con rutas aleatorias y se evalúa su distancia.
 - **Movimiento**: Cada partícula actualiza su ruta basada en la mejor ruta global y su propio historial.
 - **Evaluación**: Se evalúan las rutas del enjambre y se actualiza la mejor solución encontrada.
+------------
+- **Tarea 4**
+📝 Este programa implementa un algoritmo genético para resolver el problema del agente viajero (TSP), restringido a rutas válidas según un grafo de ciudades adyacentes. Se generan rutas iniciales aleatorias, se evalúan por su distancia total y se mejoran mediante selección por torneo, cruce y mutación. Cada operador garantiza que las rutas permanezcan válidas. El algoritmo imprime el progreso en cada generación. Al final, se muestra la mejor ruta encontrada.
